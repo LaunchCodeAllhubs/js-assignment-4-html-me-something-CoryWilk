@@ -1,6 +1,31 @@
 /* Write your CSS here! */
+
+
+#pageBackground{
+    background-image: url("images/Poke_Ball.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+
 body{
     margin: 8px;
-    display: block;
+    display: block;    
+}
+
+#mainHeading {
+    color: red; 
+    padding: 25px;
+    border: 5px dotted black;
+    margin: 50px;
+}
+
+.funParagraph {
+    color: green;
 }
 
