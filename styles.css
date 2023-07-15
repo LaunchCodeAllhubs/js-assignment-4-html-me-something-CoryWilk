@@ -1,8 +1,27 @@
 /* Write your CSS here! */
 
+a{
+    position: relative;
+    background-color: navy;
+    box-shadow: 0 5px 0 black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background-color: purple;
+    text-decoration: underline;
+}
+
+ul{
+    list-style: square;
+}
+
 body{
     margin: 8px;
-    display: block;    
+    display: block;   
+    background-color:rgb(144, 221, 233);
 }
 
 #mainHeading {
